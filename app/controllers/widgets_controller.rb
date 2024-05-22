@@ -70,7 +70,7 @@ class WidgetsController < ActionController::Base
   end
 
   def allow_iframe_requests
-    response.headers.delete('X-Frame-Options')
+    #response.headers.delete('X-Frame-Options')
   end
 end
 
